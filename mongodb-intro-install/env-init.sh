@@ -1,1 +1,0 @@
-echo "Let's get started"
