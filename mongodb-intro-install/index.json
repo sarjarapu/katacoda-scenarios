@@ -1,6 +1,6 @@
 {
   "title": "Lab: Installing and Configuring MongoDB",
-  "description": "This is lab exercise to help you learn how to install and configure the MongoDB Server.",
+  "description": "Lab exercise to learn how to install and configure the server.",
   "difficulty": "beginner",
   "time": "2 minutes",
   "details": {
@@ -18,7 +18,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\n\u001b[m\r\n"
   },
   "backend": {
     "imageid": "bash"
