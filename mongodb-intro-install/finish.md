@@ -1,1 +1,3 @@
-You've completed your first Katacoda scenario!
+Congratulations for making it this far!
+
+You've completed your first lab in Getting started with MongoDB!

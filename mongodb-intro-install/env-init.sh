@@ -1,2 +1,1 @@
-echo "Environment configuration done. Let's get started"
-
+echo "Let's get started"
