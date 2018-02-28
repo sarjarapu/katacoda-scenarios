@@ -1,2 +1,4 @@
+echo "Configuring the environment. Please wait ..."
 yum install -y wget
-touch /tmp/environment-setup-done
+echo "Configuration done. Let's get started"
+
