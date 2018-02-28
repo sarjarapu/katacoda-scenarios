@@ -2,7 +2,7 @@
   "title": "Lab: Installing and Configuring MongoDB",
   "description": "Lab exercise to learn how to install and configure the server.",
   "difficulty": "beginner",
-  "time": "2 minutes",
+  "time": "5 minutes",
   "details": {
     "steps": [{
       "title": "Download and Install the binaries",

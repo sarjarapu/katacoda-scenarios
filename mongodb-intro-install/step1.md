@@ -1,8 +1,8 @@
-In this step you will download the binaries of MongoDB latest version on an ubuntu server
+In this step you will download the binaries of MongoDB latest version on an _Ubuntu_ server
 
 ## Download the MongoDB binaries
 
-Before we get started first we need to download MongoDB binaries. Current tutorial is running on _Ubuntu_. So download the binaries for _Ubuntu_ and uncompress it using below commands.
+Since the current tutorial is running on _Ubuntu_ server let's download the binaries for _Ubuntu_ and uncompress it using below commands.
 
 `wget http://downloads.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1604-3.6.3.tgz
 tar xzvf mongodb-linux-x86_64-ubuntu1604-3.6.3.tgz
@@ -10,9 +10,10 @@ tar xzvf mongodb-linux-x86_64-ubuntu1604-3.6.3.tgz
 
 ## Setup the environment
 
-Before you start the MongoDB server, first you need to setup the environment. Below commands will
-* Configure the environmenth _PATH_
-* Create directory for storing the data files
+Setup the environment using below commands before you start the MongoDB. They will
+
+* Configure the environment variable _PATH_
+* Create directory for storing the _datafiles_
 
 `cd mongodb-linux-x86_64-ubuntu1604-3.6.3/bin
 export PATH=$(pwd):$PATH
@@ -21,7 +22,7 @@ mkdir -p ~/data/db
 
 ## Start the MongoDB server
 
-Now we are ready to start the server. The default settings for _data files_ is configured to be _/data/db_. You can specify an alternate path for data files using the _--dbpath_ option. Run the below command to start the server in a background process with the dbpath override 
+The default settings for _datafiles_ is _/data/db_. You can specify an alternate path for _datafiles_ using the _--dbpath_ option as show below. Run the below command to start the server with the _--dbpath_ and _--logpath_ overrides 
 
 `./mongod --dbpath ~/data/db --logpath ~/data/mongod.log --fork`{{execute}}
 
