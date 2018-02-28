@@ -1,15 +1,16 @@
 {
   "title": "Lab: Installing and Configuring MongoDB",
-  "description": "This is lab exercise to help you install and configure the MongoDB Server.",
+  "description": "This is lab exercise to help you learn how to install and configure the MongoDB Server.",
   "difficulty": "beginner",
   "time": "2 minutes",
   "details": {
     "steps": [{
-      "title": "Download the MongoDB binaries",
+      "title": "Download and Install the binaries",
       "text": "step1.md"
     }],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "env-init.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -17,8 +18,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n",
-    "courseData": "env-init.sh"
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
   },
   "backend": {
     "imageid": "centos7"
